@@ -6,7 +6,7 @@ title: Notebooks
 
 ## 深度学习基础
 
-- [MLP](foundations/mlp.ipynb)（草稿）
+- [MLP](foundations/mlp.ipynb)（草稿，测试用）
 
 ## 计算机视觉
 
@@ -18,4 +18,4 @@ title: Notebooks
 
 ## 世界模型
 
-内容待添加。
+- [World Models 2018](world-models/world-models-2018.ipynb) （进行中）

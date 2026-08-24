@@ -29,6 +29,9 @@ website:
         - section: 深度学习基础
           contents:
             - notebooks/foundations/mlp.ipynb
+        - section: 世界模型
+          contents:
+            - notebooks/world-models/world-models-2018.ipynb
   page-footer:
     left: Copyright 2026 Nonepf
     right: Licensed under the MIT License
