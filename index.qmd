@@ -1,0 +1,17 @@
+---
+title: Deep Learning Minimum
+subtitle: Learn deep learning by implementing it
+page-layout: full
+---
+
+这个项目名称致敬 *The Theoretical Minimum*。这里以代码为主，记录经典深度学习模型的手动实现与实验。
+
+[浏览 Notebooks](notebooks/index.qmd){.btn .btn-primary}
+
+![项目整体结构](assets/repo-overview.png){fig-alt="项目整体结构：深度学习基础、计算机视觉、自然语言处理与世界模型"}
+
+## 使用方式
+
+网站中的页面主要由 Jupyter Notebook 直接生成。Notebook 保留代码、必要说明和已经运行得到的结果；网站仅负责组织和展示这些内容。
+
+当前首先整理世界模型相关内容，其他板块会随实现逐步补充。

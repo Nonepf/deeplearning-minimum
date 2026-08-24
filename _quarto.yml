@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - notebooks/**/*.qmd
+    - notebooks/**/*.ipynb
+
+website:
+  title: Deep Learning Minimum
+  site-url: https://nonepf.github.io/deeplearning-minimum/
+  repo-url: https://github.com/Nonepf/deeplearning-minimum
+  repo-actions: [source, issue]
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Notebooks
+        href: notebooks/index.qmd
+    right:
+      - icon: github
+        href: https://github.com/Nonepf/deeplearning-minimum
+        aria-label: GitHub
+  sidebar:
+    - title: Notebooks
+      style: docked
+      contents:
+        - notebooks/index.qmd
+        - section: 深度学习基础
+          contents:
+            - notebooks/foundations/mlp.ipynb
+  page-footer:
+    left: Copyright 2026 Nonepf
+    right: Licensed under the MIT License
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

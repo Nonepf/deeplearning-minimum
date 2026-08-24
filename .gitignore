@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Quarto
+/.quarto/
+/_site/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated training artifacts
+/data/
+/checkpoints/
+/runs/
+/wandb/
+*.ckpt
+*.pth
+*.pt
