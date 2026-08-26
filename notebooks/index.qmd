@@ -18,4 +18,5 @@ title: Notebooks
 
 ## 世界模型
 
-- [World Models 2018](world-models/world-models-2018.ipynb) （进行中）
+- [World Models 2018](world-models/world-models-2018.ipynb) 
+- [Genie V1](world-models/genie-v1.ipynb) （待完成）
