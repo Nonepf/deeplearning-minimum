@@ -11,6 +11,11 @@ title: Notebooks
 - [ST-Transformer](foundations/st_transformer.ipynb)
 - [Auto Encoder](foundations/auto_encoder.ipynb) （持续更新，包括 VAE, VQ-VAE 等）
 
+## 强化学习（传统，Model Free）
+
+- [Value Learning](DRL/value-learning.ipynb) （进行中）
+- [Policy Learning](DRL/policy-learning.ipynb) （计划中）
+
 ## 计算机视觉
 
 内容待添加。
