@@ -1,3 +1,7 @@
+# User
+
+checkpoints/
+
 # Python
 __pycache__/
 *.py[cod]
